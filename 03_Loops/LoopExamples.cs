@@ -67,6 +67,57 @@ namespace _03_Loops
                 //5
                 Console.WriteLine(i);
             }
+
+            string[] students = { "David", "Nate", "Anastacia", "Jeffrey", "Ethan" };
+
+            for (int i = 0; i < students.Length; i++)
+            {
+                Console.WriteLine($"Good Morning {students[i]}");
+            }
         }
+
+        [TestMethod]
+        public void foreachLoops()
+        {
+            string[] students = { "David", "Nate", "Anastacia", "Jeffrey", "Ethan" };
+
+            //1 foreach Keyword
+            //2 type of collection
+            //3 name of the current iteration (can be any name)
+            //4 in keyword
+            //5 collection being iterated through
+
+            //1     //2    //3         //4    //5
+            foreach(string studentName in students)
+            {
+                //6- body
+                Console.WriteLine(studentName + " is in class today");
+            }
+
+            string myName = "Amy Michele Jones";
+            foreach (var letter in myName)
+            {
+                if (letter != ' ')
+                {
+                    Console.WriteLine(letter);
+                }
+            }
+        }
+
+        [TestMethod]
+        public void DoWhileLoop()
+        {
+            int counter = 0;
+            //do while loops always run at least once
+            do
+            {
+                Console.WriteLine("Hello " + counter);
+                counter++;
+            } 
+            while (counter < 5);
+        }
+
+        //goto keyword
+        //Goes to specific line in code
     }
 }
