@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -51,6 +52,66 @@ namespace _04_Classes
             return years;
         }
 
+        public double DivideTwoNums(int firstNum, int secondNum)
+        {
+            return (double)firstNum / (double)secondNum;
+        }
+        public int LargeNumber(int numbOne, int numbTwo)
+
+        {
+
+            if (numbOne > numbTwo)
+
+            {
+
+                return numbOne;
+
+            }
+            else
+            {
+
+                return numbTwo;
+
+            }
+
+        }
+
+        public string GreetUserByName(string name)
+        {
+            return ($"Hello {name}");
+        }
+
+        public int UserAge(DateTime birthdate)
+        {
+            int age = DateTime.Now.Year - birthdate.Year;
+            return age;
+        }
+
+        public void FizzBuzzMethod(int numbOne)
+        {
+            for (int i = 1; i <= numbOne; i++)
+            {
+                if (i % 15 == 0)
+                {
+                    Console.WriteLine("fizzbuzz"); ;
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+        }
 
     }
 }
+    
+

@@ -41,6 +41,28 @@ namespace MorningChallenge_MCW1D3
                 count++;
             }
             Console.WriteLine(count);
+
+            //var numbOne = 16;
+            //for (int i = 1; i <= numbOne; i++)
+            //{
+            //    if (i % 15 == 0)
+            //    {
+            //        return "Fizzbuzz";
+            //    }
+            //    else if (i % 3 == 0)
+            //    {
+            //        return "Fizz";
+            //    }
+            //    else if (i % 5 == 0)
+            //    {
+            //        return "Buzz";
+            //    }
+            //    else
+            //    {
+            //        return i;
+            //    }
+            //}
+
         }
     }
 }
