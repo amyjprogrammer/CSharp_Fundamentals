@@ -1,6 +1,7 @@
 ﻿using _05_InheritanceClasses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace _05_InheritanceTests
 {
@@ -18,7 +19,7 @@ namespace _05_InheritanceTests
         public void CatMovementTest_ShouldWriteToConsoleContainingCatTypeNamePlusSecondLineSpecificToCatType() 
         {
             
-            Cat catOne = new Cat();
+            Cat catOne = new Cat(true);
             catOne.Move();
 
             catOne.ClawLength = 3.7;
@@ -33,6 +34,31 @@ namespace _05_InheritanceTests
             whiskers.Move();
             snickers.MakeSound();//shows purrrr. 
             //if MakeSound was not in Cat snickers wouldn't be able to access it
+        }
+
+        [TestMethod]
+        public void CalicoConstructorTest_ShouldOutputToConsoleProperWriteLines()
+        {
+            Cat fluffy = new Calico();
+
+            fluffy.IsMammal = true;
+            fluffy.ClawLength = 1.1;
+            fluffy.Move();
+            fluffy.MakeSound();
+        }
+
+        [TestMethod]
+        public void CheckingTypes()
+        {
+            Calico catOne = new Calico();
+            Animal animalOne = new Calico();
+
+            List<Animal> animals = new List<Animal>();
+
+            animals.Add(catOne);
+            animals.Add(new RagdollCat());
+            animals.Add(new Animal());
+            
         }
     }
 }
