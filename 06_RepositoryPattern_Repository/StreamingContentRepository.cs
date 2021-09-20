@@ -36,5 +36,49 @@ namespace _06_RepositoryPattern_Repository
         {
             return _contentDirectory;
         }
+
+        //Get by Title
+        public StreamingContent GetContentByTitle(string theTitleYouAreLookingFor)
+        {
+            foreach(StreamingContent content in _contentDirectory)
+            {
+                if(content.Title == theTitleYouAreLookingFor)
+                {
+                    return content;
+                }
+                
+            }
+            return null;
+        }
+
+        //Update
+
+        public bool UpdateExistingContent(StreamingContent existingContent, StreamingContent newContent)
+        {
+            if(existingContent != null)
+            {
+
+                existingContent.Title = newContent.Title;
+                existingContent.Description = newContent.Description;
+                existingContent.RunTime = newContent.RunTime;
+                existingContent.Genre = newContent.Genre;
+                existingContent.RatingMaturity = newContent.RatingMaturity;
+                existingContent.ReviewRating = newContent.ReviewRating;
+                return true;
+            } else
+            {
+                return false;
+            }
+
+
+        }
+
+
+        //Delete
+        public bool DeleteContent(StreamingContent existingContent)
+        {
+            bool result = _contentDirectory.Remove(existingContent);
+            return result;
+        }
     }
 }
