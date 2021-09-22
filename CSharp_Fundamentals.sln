@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_W2D2", "UnitTest_W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_StreamingContent_Console1", "07_StreamingContent_Console1\07_StreamingContent_Console1.csproj", "{F3954672-9E0B-42DE-A9BB-6978DF68E20B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_StreamingContent_Inheritance", "08_StreamingContent_Inheritance\08_StreamingContent_Inheritance.csproj", "{C4CF1C3D-3EDE-4E77-9BC2-2038CD50CED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_StreamingContent_InheritanceTests", "08_StreamingContent_InheritanceTests\08_StreamingContent_InheritanceTests.csproj", "{62FC3231-23E6-4A25-9087-38BFB71C2256}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F3954672-9E0B-42DE-A9BB-6978DF68E20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3954672-9E0B-42DE-A9BB-6978DF68E20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3954672-9E0B-42DE-A9BB-6978DF68E20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CF1C3D-3EDE-4E77-9BC2-2038CD50CED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CF1C3D-3EDE-4E77-9BC2-2038CD50CED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CF1C3D-3EDE-4E77-9BC2-2038CD50CED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CF1C3D-3EDE-4E77-9BC2-2038CD50CED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FC3231-23E6-4A25-9087-38BFB71C2256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FC3231-23E6-4A25-9087-38BFB71C2256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FC3231-23E6-4A25-9087-38BFB71C2256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FC3231-23E6-4A25-9087-38BFB71C2256}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

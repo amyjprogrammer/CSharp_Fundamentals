@@ -15,7 +15,7 @@ namespace _06_RepositoryPattern_Repository
     public class StreamingContentRepository
     {
         //Field
-        private readonly List<StreamingContent> _contentDirectory = new List<StreamingContent>();
+        protected readonly List<StreamingContent> _contentDirectory = new List<StreamingContent>();
 
         //Create
 
