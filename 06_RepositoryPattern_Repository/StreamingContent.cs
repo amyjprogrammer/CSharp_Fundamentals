@@ -70,5 +70,5 @@ namespace _06_RepositoryPattern_Repository
     }
 
     //G and PG are 1 and 2
-    public enum MaturityRating { G = 1, PG= 50, PG13, R, NC17}
+    public enum MaturityRating { G = 1 , PG , PG13, R, NC17}
 }
