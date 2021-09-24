@@ -110,6 +110,7 @@ namespace _04_Classes
             }
 
         }
+        public int AddNum(int x, int y) => x + y;
 
     }
 }

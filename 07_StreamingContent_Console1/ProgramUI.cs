@@ -158,8 +158,8 @@ namespace _07_StreamingContent_Console1
         //Update Content
         //Try it tonight
 
-       /* //My code
-        private void UpdateContent()
+        /*//My code
+        private void UpdateContent2()
         {
             Console.Clear();
 
@@ -190,7 +190,7 @@ namespace _07_StreamingContent_Console1
                 Console.WriteLine("The new information you entered is:\n");
                 DisplayContent(content);
             }
-            PauseProgram();
+            PauseProgram();*//*
         }*/
 
         private void UpdateContent()
