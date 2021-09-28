@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interfaces_Tests", "09_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_StreamingContent_Console_Tests", "07_StreamingContent_Console_Tests\07_StreamingContent_Console_Tests.csproj", "{DED5EEBC-0655-46B6-AE1F-D84F469067D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MC-W3D2", "MC-W3D2\MC-W3D2.csproj", "{F8E10A68-D404-4C94-8F0A-42B97013F48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrofsnarExample", "DrofsnarExample\DrofsnarExample.csproj", "{5AE803B7-6E96-4E22-8FDF-55272FF4018E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E10A68-D404-4C94-8F0A-42B97013F48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E10A68-D404-4C94-8F0A-42B97013F48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E10A68-D404-4C94-8F0A-42B97013F48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E10A68-D404-4C94-8F0A-42B97013F48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE803B7-6E96-4E22-8FDF-55272FF4018E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE803B7-6E96-4E22-8FDF-55272FF4018E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE803B7-6E96-4E22-8FDF-55272FF4018E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE803B7-6E96-4E22-8FDF-55272FF4018E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
