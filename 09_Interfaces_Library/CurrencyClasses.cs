@@ -53,4 +53,10 @@ namespace _09_Interfaces_Library
         public string Name { get { return "Electric Payment"; } }
         public decimal Value { get; }
     }
+
+    public class Euro : ICurrency
+    {
+        public string Name { get { return "Euro"; } }
+        public decimal Value { get { return 1.17m; } }
+    }
 }

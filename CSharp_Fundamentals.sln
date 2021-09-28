@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interfaces_Library", "09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interfaces_Tests", "09_Interfaces_Tests\09_Interfaces_Tests.csproj", "{DC607626-FF4D-41F0-A2DD-013F0D89AA04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_StreamingContent_Console_Tests", "07_StreamingContent_Console_Tests\07_StreamingContent_Console_Tests.csproj", "{DED5EEBC-0655-46B6-AE1F-D84F469067D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DC607626-FF4D-41F0-A2DD-013F0D89AA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC607626-FF4D-41F0-A2DD-013F0D89AA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC607626-FF4D-41F0-A2DD-013F0D89AA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED5EEBC-0655-46B6-AE1F-D84F469067D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
