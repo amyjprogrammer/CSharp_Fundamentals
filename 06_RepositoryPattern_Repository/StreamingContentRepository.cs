@@ -8,7 +8,7 @@ namespace _06_RepositoryPattern_Repository
 {
     //Repository Pattern
     //CRUD
-    //Create
+    //Create(
     //Read
     //Update
     //Delete
