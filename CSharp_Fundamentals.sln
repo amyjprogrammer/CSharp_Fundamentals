@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrofsnarExample", "Drofsnar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Classes_Setters", "04_Classes_Setters\04_Classes_Setters.csproj", "{94DE8DF1-1F3B-4ECE-B52A-59F74B61B61C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{2E23D0ED-4BAC-47AF-A8AC-A103C4F8AD19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{94DE8DF1-1F3B-4ECE-B52A-59F74B61B61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DE8DF1-1F3B-4ECE-B52A-59F74B61B61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DE8DF1-1F3B-4ECE-B52A-59F74B61B61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E23D0ED-4BAC-47AF-A8AC-A103C4F8AD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E23D0ED-4BAC-47AF-A8AC-A103C4F8AD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E23D0ED-4BAC-47AF-A8AC-A103C4F8AD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E23D0ED-4BAC-47AF-A8AC-A103C4F8AD19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

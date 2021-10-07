@@ -110,9 +110,49 @@ namespace _04_Classes
             }
 
         }
+        public int Divide(int x, int y)
+        {
+            return x / y;
+        }
         public int AddNum(int x, int y) => x + y;
 
+        public int Loop()
+        {
+
+            for (int i = -1; i < 5; i += 2)
+            {
+                return i;
+            }
+            return 0;
+        }
+
+        public string DivisibleByThree(int userNum)
+        {
+            if (userNum % 3 == 0)
+            {
+                Console.WriteLine("This number is divisible by three");
+            }
+            else
+            {
+                Console.WriteLine("This number is not divisible by three");
+            }
+            return null;
+        }
+
+        public string TimesTable()
+        {
+            for (int i = 1; i < 5; i++)
+            {
+                for (int index = 1; index < 12; index++)
+                {
+                    int sum = i * index;
+                    return $"{i} * {index} = {sum}";
+                }
+            }
+            return null;
+        }
+        
     }
 }
-    
+
 

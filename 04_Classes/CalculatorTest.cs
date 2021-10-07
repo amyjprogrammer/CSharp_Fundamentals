@@ -33,7 +33,16 @@ namespace _04_Classes
             int ageYear = calculator.UserAge(new DateTime(1977, 03, 24));
             Console.WriteLine(ageYear);
 
-            
+            int answer = calculator.Divide(7, 2);
+            Console.WriteLine(answer);
+
+            Console.WriteLine(calculator.Loop());
+
+            string iTest = calculator.DivisibleByThree(12);
+            Console.WriteLine(iTest);
+
+            string testTables = calculator.TimesTable();
+            Console.WriteLine(testTables);
         }
     }
 }
