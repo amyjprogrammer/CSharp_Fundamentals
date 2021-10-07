@@ -25,6 +25,8 @@ namespace _04_Classes
             //6
             return sum;
         }
+        private string Name { get; set; }
+        
 
         //Overloading a method
         public double Add(double numOne, double numTwo)

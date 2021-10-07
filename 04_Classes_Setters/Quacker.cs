@@ -28,6 +28,19 @@ namespace _04_Classes_Setters
                     throw new FormatException("Username must be between 7 and 20 characters");
             } 
         }
+
+        private int quantity;
+        public int Quantity 
+        {
+            get => quantity;
+            set
+            {
+                if (value > 1)
+                {
+                    quantity = 1; 
+                }
+            }
+        }
         private int _age;
         public int Age
         {
@@ -40,6 +53,25 @@ namespace _04_Classes_Setters
                 if (value < 16)
                     throw new ArgumentException("Age must be at least 16");
                 _age = value;//this is the else statement 
+            }
+        }
+
+        public class MaxSum
+        {
+            public static int FindMaxSum(List<int> list)
+            {
+                list.Sort();
+                var firstNum = list[list.Count -1];
+                var secondNum = list[list.Count - 2];
+                var sum = firstNum + secondNum;
+                return sum;
+            }
+
+            public static void Main(string[] args)
+            {
+                List<int> list = new List<int> { 5, 9, 7, 11 };
+                Console.WriteLine(FindMaxSum(list));
+
             }
         }
 
