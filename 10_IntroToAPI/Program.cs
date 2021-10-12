@@ -21,6 +21,9 @@ namespace _10_IntroToAPI
             //getting a response from the task
             HttpResponseMessage response = responseTask.Result;
 
+            //these two lines above could be written 
+            //var response = httpClient.GetAsync("https://swapi.dev/api/people/1").Result;
+
             //creating and getting the response
             HttpResponseMessage responseTwo = httpClient.GetAsync("https://swapi.dev/api/people/2").Result;
 
@@ -30,6 +33,8 @@ namespace _10_IntroToAPI
                 //Console.WriteLine(stringResponse);
 
                 Person person = response.Content.ReadAsAsync<Person>().Result;//serializes the data for us
+                //can also use
+                //var person = JsonConvert.DeserializeObject<Person>(stringResponse);
 
                 Console.WriteLine("Name: " + person.Name);
                 Console.WriteLine("Height: " + person.Height);
@@ -64,6 +69,18 @@ namespace _10_IntroToAPI
 
             Person personThree = service.GetAsync<Person>("https://swapi.dev/api/people/12").Result;
             Console.WriteLine(personThree.Name);
+
+            Console.WriteLine();
+
+            SearchResult<Person> skywalkers = service.GetPersonSearchAsync("skywalker").Result;
+            foreach (Person p in skywalkers.Results)
+            {
+                Console.WriteLine(p.Name);
+            }
+
+            //both lines below get the same info
+            var genericSearch = service.GetSearchAsync<Vehicle>("speeder", "vehicles").Result;
+            var vehicleSearch = service.GetVehicleSearchAsync("speeder").Result;
         }
     }
 }
