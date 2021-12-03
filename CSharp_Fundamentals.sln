@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_IntroToAPI", "10_IntroToAPI\10_IntroToAPI.csproj", "{95FCF8A2-03CA-43A0-9BD5-C551DB932106}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDome_WorkSpace", "TestDome_WorkSpace\TestDome_WorkSpace.csproj", "{81F7247D-386D-4287-99B6-0D9499A15080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{95FCF8A2-03CA-43A0-9BD5-C551DB932106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FCF8A2-03CA-43A0-9BD5-C551DB932106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FCF8A2-03CA-43A0-9BD5-C551DB932106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F7247D-386D-4287-99B6-0D9499A15080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F7247D-386D-4287-99B6-0D9499A15080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F7247D-386D-4287-99B6-0D9499A15080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F7247D-386D-4287-99B6-0D9499A15080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
